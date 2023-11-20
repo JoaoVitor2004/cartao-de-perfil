@@ -6,4 +6,4 @@
     <li>HTML</li>
     <li>CSS</li>
 </ul> <br>
-<a href="https://joaovitor2004.github.io/profile-card/">Link para acessar o site</a>
+<a href="https://joaovitor2004.github.io/cartao-de-perfil/">Link para acessar o site</a>
