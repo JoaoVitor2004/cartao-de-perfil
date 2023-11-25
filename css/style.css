@@ -13,19 +13,26 @@ body {
 .imagem {
     background-image: url(../image/bg-pattern-card.svg);
     width: 100%;
-    height: 22vh;
+    height: 135px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .divisao-principal {
     background-color: white;
     color: black;
     text-align: center;
-    width: 28%;
-    height: 65vh;
-    margin: 100px auto;
+    width: 350px;
+    height: 420px;
     border-radius: 25px;
+    position: relative;
 }
 .cima {
     border-bottom: 1px solid rgba(0, 0, 0, 0.267);
@@ -95,17 +102,4 @@ body {
     bottom: -450px;
     right: -200px;
     z-index: -1;
-}
-
-
-@media (max-width: 430px) {
-    .divisao-principal {
-        width: 90%;
-    }
-    .imagem1 {
-        display: none;
-    }
-    .imagem2 {
-        display: none;
-    }
 }
