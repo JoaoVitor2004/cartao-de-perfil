@@ -8,6 +8,4 @@
     - HTML
     - CSS
       
-<br>
-
 🔗 link para acessar o <a href="https://joaovitor2004.github.io/cartao-de-perfil/">site<a>
