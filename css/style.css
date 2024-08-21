@@ -30,9 +30,10 @@ body {
     color: black;
     text-align: center;
     width: 350px;
-    height: 420px;
+    min-height: 420px;
     border-radius: 25px;
     position: relative;
+    padding-bottom: 20px;
 }
 .cima {
     border-bottom: 1px solid rgba(0, 0, 0, 0.267);
@@ -72,6 +73,15 @@ body {
 .baixo .div1 p {
     font-size: 13px;
     color: rgba(0, 0, 0, 0.707);
+    margin-bottom: 10px;
+}
+
+.baixo .div1 .btn-followers {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
 }
 .div1 {
     display: flex;
